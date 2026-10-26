@@ -1,3 +1,5 @@
+echo "Install.sh is now downloading Docker Files 1/3"
+
 set -e
 
 curl -fsSL "https://raw.githubusercontent.com/Pay-Respects/PayRespects/main/compose.yaml" -o compose.yaml
