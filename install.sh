@@ -1,6 +1,6 @@
-echo "Install.sh is now downloading Docker Files 1/3"
-
 set -e
+
+echo "Install.sh is now downloading Docker Files 1/3"
 
 curl -fsSL "https://raw.githubusercontent.com/Pay-Respects/PayRespects/main/compose.yaml" -o compose.yaml
 curl -fsSL "https://raw.githubusercontent.com/Pay-Respects/PayRespects/main/.env.example" -o .env
